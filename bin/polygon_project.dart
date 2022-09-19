@@ -4,6 +4,7 @@ import 'package:polygon_project/circle.dart';
 
 void main() {
   // Example of Circle
+  //ignore
   Circle circle = Circle(4);
   double circle_circumference = circle.circumference();
   double circle_area = circle.area();
