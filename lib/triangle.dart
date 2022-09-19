@@ -18,23 +18,17 @@ class Triangle {
 
   String getType() {
     /*
-    Right Triangles:
-      A right triangle has one 90° angle and a variety of often-studied topics:
-      
     Equilateral triangle:
-      The Equilateral triangleshown on the left has three congruent sides and three congruent angles.
+      In an equilateral triangle, all the lengths of the sides are equal. 
+      In such a case, each of the interior angles will have a measure of 60 degrees. 
+      Since the angles of an equilateral triangle are same, it is also known as an equiangular triangle. 
 
     Isosceles triangle:
-      The Isosceles triangle shown on the left has two equal sides and two equal angles.
+      In an isosceles triangle, the lengths of two of the three sides are equal. 
 
     Scalene Triangle:
-      The Scalene Triangle has no congruent sides. In other words, each side must have a different length.
-
-    Acute Triangle:
-      The Acute Triangle has three acute angles (an acute angle measures less than 90°).
-
-    Obtuse Triangle:
-      The Obtuse Triangle has an obtuse angle (an obtuse angle has more than 90°).
+      A scalene triangle has all side lengths of different measures. 
+      No side will be equal in length to any of the other sides in such a triangle.
     */
     return 'type';
   }
