@@ -47,10 +47,10 @@ Sample of Polygon:
 ## Example of Square
 
 ```dart
-square = Square(5);
-is_valid_square = square.is_valid();
-square_perimeter = square.perimeter();
-square_area = square.area();
+Square square = Square(5);
+bool is_valid_square = square.is_valid();
+double square_perimeter = square.perimeter();
+double square_area = square.area();
 print("Can it be a square?");
 print(is_valid_square);
 // can it be a square? True
@@ -65,10 +65,10 @@ print(square_area);
 ## Example of Rectangle
 
 ```dart
-rectangle = Rectangle(4, 7);
-is_valid_rectangle = rectangle.is_valid();
-rectangle_perimeter = rectangle.perimeter();
-rectangle_area = rectangle.area();
+Rectangle rectangle = Rectangle(4, 7);
+bool is_valid_rectangle = rectangle.is_valid();
+double rectangle_perimeter = rectangle.perimeter();
+double rectangle_area = rectangle.area();
 print("Can it be a square?");
 print(is_valid_rectangle);
 // can it be a square? True
@@ -83,10 +83,10 @@ print(rectangle_area);
 ## Example of Triangle
 
 ```dart
-triangle = Triangle(4, 7, 5);
-is_valid_triangle = triangle.is_valid();
-triangle_perimeter = triangle.perimeter();
-triangle_area = triangle.area();
+Triangle triangle = Triangle(4, 7, 5);
+bool is_valid_triangle = triangle.is_valid();
+double triangle_perimeter = triangle.perimeter();
+double triangle_area = triangle.area();
 print("Can it be a triangle?");
 print(is_valid_triangle);
 // can it be a triangle? True
@@ -101,11 +101,11 @@ print(triangle_area);
 ## Example of Circle
 
 ```dart
-circle = Circle(4);
-is_valid_circle = circle.is_valid();
-circle_diameter = circle.diameter();
-circle_circumference = circle.circumference();
-circle_area = circle.area();
+Circle circle = Circle(4);
+double is_valid_circle = circle.is_valid();
+double circle_diameter = circle.diameter();
+double circle_circumference = circle.circumference();
+double circle_area = circle.area();
 
 print("Can it be a circle?");
 print(is_valid_circle);

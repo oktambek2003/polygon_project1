@@ -1,19 +1,13 @@
+// ignore_for_file: non_constant_identifier_names
+
 import 'package:polygon_project/circle.dart';
 
-// Example of Circle
 void main() {
-  circle = Circle(4);
-  is_valid_circle = circle.is_valid();
-  circle_diameter = circle.diameter();
-  circle_circumference = circle.circumference();
-  circle_area = circle.area();
+  // Example of Circle
+  Circle circle = Circle(4);
+  double circle_circumference = circle.circumference();
+  double circle_area = circle.area();
 
-  print("Can it be a circle?");
-  print(is_valid_circle);
-// can it be a circle? True
-  print("The diameter of the circle is:");
-  print(circle_diameter);
-// The diameter of the circle is: 8
   print("The circumference of the circle is:");
   print(circle_circumference);
 // The circumference of the circle is: 25.132741228718345
