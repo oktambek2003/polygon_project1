@@ -1,6 +1,8 @@
 class Circle {
   double r = 0;
-  Circle(double r) {}
+  Circle(double r) {
+    this.r = r;
+  }
 
   double circumference() {
     return 0;
