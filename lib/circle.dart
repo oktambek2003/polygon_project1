@@ -1,14 +1,15 @@
 class Circle {
+  double pi = 0;
   double r = 0;
   Circle(double r) {
     this.r = r;
   }
 
   double circumference() {
-    return 0;
+    return 2*pi*r;
   }
 
   double area() {
-    return 0;
+    return pi*r*r;
   }
 }
