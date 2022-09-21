@@ -1,5 +1,5 @@
 class Circle {
-  double pi = 0;
+  double pi = 3;
   double r = 0;
   Circle(double r) {
     this.r = r;
