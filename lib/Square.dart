@@ -1,11 +1,17 @@
 class Square {
-  Square(double a) {}
+  double a = 0;
+  Square({required this.a}) {}
 
   double area() {
-    return 0;
+    return a * a;
   }
 
   double perimeter() {
-    return 0;
+    return 4 * a;
   }
+}
+
+void main() {
+  Square x = Square(a: 4);
+  print(x.area());
 }

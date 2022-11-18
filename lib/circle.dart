@@ -10,6 +10,12 @@ class Circle {
   }
 
   double area() {
-    return pi*r*r;
+    
+    return pi * r * r;
   }
+}
+
+void main() {
+  Circle a = Circle(3);
+  print(a.area());
 }
